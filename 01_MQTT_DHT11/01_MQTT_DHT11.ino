@@ -4,7 +4,7 @@
 #include <PubSubClient.h>
 
 #define DHTPIN 3 
-#define DHTTYPE DHT22 
+#define DHTTYPE DHT11 
 
 DHT dht(DHTPIN, DHTTYPE);
 
